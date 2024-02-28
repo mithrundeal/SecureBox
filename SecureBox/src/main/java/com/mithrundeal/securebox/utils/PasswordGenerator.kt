@@ -21,7 +21,7 @@ interface Builder {
  */
 class PasswordGeneratorBuilder : Builder {
 
-    private var includeUppercase = true
+    private var includeUpperCase = true
     private var includeLowerCase = true
     private var includeNumbers = true
     private var includeSymbols = true
